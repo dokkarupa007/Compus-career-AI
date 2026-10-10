@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest & test caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and databases
+*.log
+# Do not ignore database/careercompass.db if pre-seeded, or ignore and rebuild in build step
+.DS_Store
+Thumbs.db
+
+.vercel

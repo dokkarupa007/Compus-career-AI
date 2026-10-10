@@ -1,0 +1,17 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "type": "service",
+        "service": "campus-career-ai"
+      }
+    }
+  ],
+  "services": {
+    "campus-career-ai": {
+      "root": ".",
+      "framework": "flask"
+    }
+  }
+}
